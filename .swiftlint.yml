@@ -1,0 +1,8 @@
+disabled_rules:
+  - colon
+  - comma
+  - control_statement
+  
+line_length:
+  - 200
+  - 300
