@@ -14,6 +14,7 @@
 		B5546AC824114937000A5601 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5546AC724114937000A5601 /* Assets.xcassets */; };
 		B5546ACB24114937000A5601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5546AC924114937000A5601 /* LaunchScreen.storyboard */; };
 		B561F37F2412D7F4000321F5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561F37E2412D7F4000321F5 /* MainViewController.swift */; };
+		B5A81A8B2413FE160049A533 /* CeraPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5A81A8A2413FE160049A533 /* CeraPro-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B5546ACA24114937000A5601 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5546ACC24114937000A5601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B561F37E2412D7F4000321F5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B5A81A8A2413FE160049A533 /* CeraPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CeraPro-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		B5546AB224114936000A5601 = {
 			isa = PBXGroup;
 			children = (
+				B5A81A892413FDF50049A533 /* Fonts */,
 				B5546ABD24114936000A5601 /* SorokaAppTest */,
 				B5546ABC24114936000A5601 /* Products */,
 				B19C784427763BF171F67A4B /* Pods */,
@@ -89,6 +92,14 @@
 				B561F37E2412D7F4000321F5 /* MainViewController.swift */,
 			);
 			path = SorokaAppTest;
+			sourceTree = "<group>";
+		};
+		B5A81A892413FDF50049A533 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B5A81A8A2413FE160049A533 /* CeraPro-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			files = (
 				B5546ACB24114937000A5601 /* LaunchScreen.storyboard in Resources */,
 				B5546AC824114937000A5601 /* Assets.xcassets in Resources */,
+				B5A81A8B2413FE160049A533 /* CeraPro-Regular.ttf in Resources */,
 				B5546AC624114936000A5601 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
