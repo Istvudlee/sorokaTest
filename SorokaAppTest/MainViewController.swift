@@ -9,13 +9,31 @@
 import UIKit
 
 class MainViewController: UIViewController {
+    
+    let viewNewProduct: UIView = {
+        let view = UIView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .gray
+        return view
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = .green
+        self.view.backgroundColor = .yellow
+        createViewNewProduct()
     }
     
+    private func createViewNewProduct() {
+        view.addSubview(viewNewProduct)
+        
+        NSLayoutConstraint.activate([
+            viewNewProduct.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 13),
+            viewNewProduct.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            viewNewProduct.widthAnchor.constraint(equalToConstant: 154),
+            viewNewProduct.heightAnchor.constraint(equalToConstant: 122)
+        ])
+    }
 
     /*
     // MARK: - Navigation
