@@ -15,6 +15,7 @@
 		B5546ACB24114937000A5601 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5546AC924114937000A5601 /* LaunchScreen.storyboard */; };
 		B561F37F2412D7F4000321F5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561F37E2412D7F4000321F5 /* MainViewController.swift */; };
 		B5A81A8B2413FE160049A533 /* CeraPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5A81A8A2413FE160049A533 /* CeraPro-Regular.ttf */; };
+		B5D0041B2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0041A2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B5546ACC24114937000A5601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B561F37E2412D7F4000321F5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B5A81A8A2413FE160049A533 /* CeraPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CeraPro-Regular.ttf"; sourceTree = "<group>"; };
+		B5D0041A2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				B5546AC924114937000A5601 /* LaunchScreen.storyboard */,
 				B5546ACC24114937000A5601 /* Info.plist */,
 				B561F37E2412D7F4000321F5 /* MainViewController.swift */,
+				B5D0041A2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift */,
 			);
 			path = SorokaAppTest;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				B561F37F2412D7F4000321F5 /* MainViewController.swift in Sources */,
 				B5546AC324114936000A5601 /* ViewController.swift in Sources */,
 				B5546ABF24114936000A5601 /* AppDelegate.swift in Sources */,
+				B5D0041B2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

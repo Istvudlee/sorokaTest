@@ -36,7 +36,12 @@ class MainViewController: UIViewController {
         label.lineBreakMode = .byWordWrapping
         return label
     }()
-    
+    let collectionViewNewProducts: UICollectionView = {
+        let collectionView = UICollectionView()
+        
+        
+        return collectionView
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -57,20 +62,28 @@ class MainViewController: UIViewController {
         ])
         
         NSLayoutConstraint.activate([
-
+            
             newProductImage.leadingAnchor.constraint(equalTo: viewNewProduct.leadingAnchor, constant: 0),
             newProductImage.trailingAnchor.constraint(equalTo: viewNewProduct.trailingAnchor, constant: 0),
         ])
         
         NSLayoutConstraint.activate([
-
+            
             itemNewProductLabel.topAnchor.constraint(equalTo: newProductImage.bottomAnchor, constant: 6),
             itemNewProductLabel.leadingAnchor.constraint(equalTo: viewNewProduct.leadingAnchor, constant: 9),
-        itemNewProductLabel.trailingAnchor.constraint(lessThanOrEqualToSystemSpacingAfter: viewNewProduct.trailingAnchor, multiplier: 9)
+            itemNewProductLabel.trailingAnchor.constraint(lessThanOrEqualToSystemSpacingAfter: viewNewProduct.trailingAnchor, multiplier: 9)
             
         ])
     }
-    
+    private func createCollectionNewProduct() {
+        view.addSubview(collectionViewNewProducts)
+        NSLayoutConstraint.activate([
+        
+            collectionViewNewProducts.topAnchor.constraint(equalTo: viewNewProduct.topAnchor, constant: 20),
+            collectionViewNewProducts.
+        ])
+
+    }
     /*
      // MARK: - Navigation
      
@@ -80,5 +93,20 @@ class MainViewController: UIViewController {
      // Pass the selected object to the new view controller.
      }
      */
+    
+}
+// MARK:- Collection View
+extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "", for: indexPath) as? NewProductCollectionViewCell else {
+            fatalError("don't collection cell")
+        }
+        return cell
+    }
+    
     
 }
