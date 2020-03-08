@@ -12,9 +12,9 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-        let newController = MainViewController()
-        self.present(newController, animated: false, completion: nil)
+//        super.viewDidLoad()
+//        let newController = MainViewController()
+//        self.present(newController, animated: false, completion: nil)
     }
 
 

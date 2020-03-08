@@ -16,6 +16,8 @@
 		B561F37F2412D7F4000321F5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B561F37E2412D7F4000321F5 /* MainViewController.swift */; };
 		B5A81A8B2413FE160049A533 /* CeraPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5A81A8A2413FE160049A533 /* CeraPro-Regular.ttf */; };
 		B5D0041B2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0041A2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift */; };
+		B5D0041E24152EAC00FDF2E1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D0041D24152EAC00FDF2E1 /* Model.swift */; };
+		B5D00422241577E900FDF2E1 /* CeraPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5D00421241577E900FDF2E1 /* CeraPro-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		B561F37E2412D7F4000321F5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B5A81A8A2413FE160049A533 /* CeraPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CeraPro-Regular.ttf"; sourceTree = "<group>"; };
 		B5D0041A2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5D0041D24152EAC00FDF2E1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B5D00421241577E900FDF2E1 /* CeraPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CeraPro-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,14 +89,15 @@
 		B5546ABD24114936000A5601 /* SorokaAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				B5D004202415778300FDF2E1 /* Controller */,
+				B5D0041F2415776400FDF2E1 /* View */,
+				B5D0041C24152E8800FDF2E1 /* Model */,
 				B5546ABE24114936000A5601 /* AppDelegate.swift */,
 				B5546AC224114936000A5601 /* ViewController.swift */,
 				B5546AC424114936000A5601 /* Main.storyboard */,
 				B5546AC724114937000A5601 /* Assets.xcassets */,
 				B5546AC924114937000A5601 /* LaunchScreen.storyboard */,
 				B5546ACC24114937000A5601 /* Info.plist */,
-				B561F37E2412D7F4000321F5 /* MainViewController.swift */,
-				B5D0041A2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift */,
 			);
 			path = SorokaAppTest;
 			sourceTree = "<group>";
@@ -101,8 +106,33 @@
 			isa = PBXGroup;
 			children = (
 				B5A81A8A2413FE160049A533 /* CeraPro-Regular.ttf */,
+				B5D00421241577E900FDF2E1 /* CeraPro-Bold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B5D0041C24152E8800FDF2E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B5D0041D24152EAC00FDF2E1 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B5D0041F2415776400FDF2E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B5D0041A2414DE4A00FDF2E1 /* NewProductCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B5D004202415778300FDF2E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B561F37E2412D7F4000321F5 /* MainViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,6 +199,7 @@
 				B5546AC824114937000A5601 /* Assets.xcassets in Resources */,
 				B5A81A8B2413FE160049A533 /* CeraPro-Regular.ttf in Resources */,
 				B5546AC624114936000A5601 /* Main.storyboard in Resources */,
+				B5D00422241577E900FDF2E1 /* CeraPro-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D0041E24152EAC00FDF2E1 /* Model.swift in Sources */,
 				B561F37F2412D7F4000321F5 /* MainViewController.swift in Sources */,
 				B5546AC324114936000A5601 /* ViewController.swift in Sources */,
 				B5546ABF24114936000A5601 /* AppDelegate.swift in Sources */,
